@@ -27,8 +27,9 @@ public class Member {
 	private Integer age;
 
 	public Member() {
-
+		System.out.println("member");
 	}
+	
 
 	public void setId(Long id) {
 		this.id = id;
